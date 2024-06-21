@@ -1,0 +1,20 @@
+This project is a Console-Based Hostel Management System developed using Java and MySQL, implementing the Model-View-Controller (MVC) architectural pattern. It offers a comprehensive solution for managing hostel operations, including room management, booking, and availability checking.
+
+Features
+Add Rooms: Allows the admin to add new rooms to the hostel database with details such as room number, type, capacity, and price.
+Book Rooms: Enables the booking of rooms by providing necessary details such as room number, guest information, and booking dates.
+Check Availability: Checks the availability of rooms based on specified criteria, ensuring efficient room allocation.
+View Bookings: Displays a list of all current and past bookings with detailed information.
+Cancel Bookings: Allows the admin or user to cancel an existing booking.
+Update Room Information: Provides the functionality to update the details of existing rooms.
+View Room Details: Displays detailed information about specific rooms.
+
+Technologies Used
+Java: The core programming language used to build the application.
+MySQL: The relational database used for storing hostel data, including rooms, bookings, and guest information.
+MVC Pattern: Ensures a clean separation of concerns within the application, improving maintainability and scalability.
+
+Project Structure
+Model: Contains classes that represent the data and business logic of the application. It includes classes for Room, Booking, and Guest, and handles database interactions using JDBC.
+View: Consists of classes that handle the input and output, presenting the data to the user. This is implemented using the console for a text-based interface.
+Controller: Manages the flow of the application, handling user input, updating the model, and refreshing the view.
